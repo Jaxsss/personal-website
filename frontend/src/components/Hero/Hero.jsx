@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
-        <h2>Building Digital Experiences That Inspire</h2>
+        <h2>Jmenuji se</h2>
+        <h1>Marek Žák</h1>
         <p>
-          Passionate Frontend Developer | Transforming Ideas into Seamless and
-          Visually Stunning Web Solutions
+          Jsem DWH Engineer - věnuji se primárně Pythonu, SQL ale také tvorbě webu (Wordpress, React).
         </p>
       </div>
 
@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="tech-icon-top">
             <img src="./assets/images/img01.png" alt=""/>
           </div>
-          <img src="./assets/images/img11.png" alt=""/>
+          <img src="./assets/images/hero-image-portrait.png" alt=""/>
         </div>
 
         <div>

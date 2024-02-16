@@ -53,6 +53,18 @@
   transition: all 0.5s ease-in-out;
 }
 
+.skills-info a[href="https://cert.efset.org/KJf5Ej"] {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.skills-info a[href="https://cert.efset.org/KJf5Ej"]:hover {
+  text-decoration: none;
+  color: #dd8cfa;
+  transition: 0.5s;
+}
+
 @media (max-width: 1025px) {
   .skills-info-card h6 {
     font-size: 1.1rem;

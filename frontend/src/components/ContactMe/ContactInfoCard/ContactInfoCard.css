@@ -33,6 +33,18 @@
   text-align: center;
 }
 
+.contact-details-card a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.contact-details-card a:hover {
+  text-decoration: none;
+  color: #dd8cfa;
+  transition: 0.5s;
+}
+
 @media (max-width: 400px) {
   .contact-details-card p {
     font-size: 0.8rem;

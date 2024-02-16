@@ -10,7 +10,7 @@ const SkillsInfoCard = ({ heading, skills }) => {
         {skills.map((item, index) => (
           <React.Fragment key={`skill_${index}`}>
             <div className="skill-info">
-              <p>{item.skill}</p>
+              <p><a href={item.link}>{item.skill}</a></p>
               <p className="percentage">{item.percentage}</p>
             </div>
 
