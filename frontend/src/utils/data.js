@@ -31,7 +31,7 @@ export const SKILLS = [
     skills: [
       { skill: "Český", percentage: "100%" },
       { skill: "Anglický (C2 Certificate)", percentage: "85%", link: "https://cert.efset.org/KJf5Ej" },
-      { skill: "Španělský", percentage: "30%" },
+      { skill: "Španělský", percentage: "20%" },
     ],
   },
   {

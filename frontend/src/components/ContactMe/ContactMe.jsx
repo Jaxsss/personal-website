@@ -7,10 +7,7 @@ const ContactMe = () => {
   return (
     <section id="contact" className="contact-container">
       <h5>Neváhejte se ozvat!</h5>
-      <div className="mb-5">
-          <h3>Marek Žák</h3>
 
-      </div>
       <div className="contact-content">
         <div style={{flex: 1}}>
           <ContactInfoCard
