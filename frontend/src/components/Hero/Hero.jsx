@@ -5,30 +5,33 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
-        <h2>Jmenuji se</h2>
-        <h1>Marek Žák</h1>
+        <h1><h2>Jmenuji se</h2>Marek Žák</h1>
         <p>
-          Jsem DWH Engineer - věnuji se primárně Pythonu, SQL ale také tvorbě webu (Wordpress, React).
+            Momentálně jsem DWH Engineerem ve společnosti IDC. Mám zkušenosti s Pythonem, Snowflake, AWS ale také
+          s tvorbou webových stránek ať už ve WordPressu tak i okrajově v Reactu.
         </p>
       </div>
 
       <div className="hero-img">
         <div>
-          <div className="tech-icon-top">
+          <div className="mobile-hide tech-icon">
             <img src="./assets/images/img01.png" alt=""/>
           </div>
           <img src="./assets/images/hero-image-portrait.png" alt=""/>
         </div>
 
         <div>
-          <div className="tech-icon">
-            <img src="./assets/images/img02.png" alt="" />
+          <div className="other-hide tech-icon">
+            <img src="./assets/images/img01.png" alt=""/>
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/img03.png" alt="" />
+            <img src="./assets/images/img02.png" alt=""/>
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/img04.png" alt="" />
+            <img src="./assets/images/img03.png" alt=""/>
+          </div>
+          <div className="tech-icon">
+            <img src="./assets/images/img04.png" alt=""/>
           </div>
         </div>
       </div>

@@ -20,23 +20,23 @@ function NavBar() {
 
           <ul>
             <li>
-              <Link activeClass="active" to="hero" smooth spy offset={-80} className="menu-item">Home</Link>
+              <Link activeClass="active" to="hero" smooth spy offset={-80} className="menu-item">Úvod</Link>
             </li>
 
             <li>
-              <Link activeClass="active" to="skills" smooth spy offset={-120} className="menu-item">Skills</Link>
+              <Link activeClass="active" to="skills" smooth spy offset={-120} className="menu-item">Znalosti</Link>
             </li>
 
             <li>
-              <Link activeClass="active" to="work-exp" smooth spy offset={-100} className="menu-item">Work Experience</Link>
+              <Link activeClass="active" to="work-exp" smooth spy offset={-100} className="menu-item">Pracovní zkušenosti</Link>
             </li>
 
             <li>
-              <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>
+              <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Kontakt</Link>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              CV
             </button>
           </ul>
 

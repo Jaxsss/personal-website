@@ -117,7 +117,7 @@
   }
 
   .menu-btn {
-    display: block;
+    display: flex;
   }
 
   .nav-content ul {

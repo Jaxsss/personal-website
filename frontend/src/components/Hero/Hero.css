@@ -38,6 +38,12 @@
   margin-bottom: 1rem;
 }
 
+.hero-content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
 .hero-content p {
   width: 80%;
   font-size: 1rem;
@@ -65,18 +71,6 @@
   transition: all 0.3s ease;
 }
 
-.tech-icon-top {
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 0.65rem;
-  border: 1.5px solid #6852ba;
-}
-
-
 .tech-icon {
   width: 5rem;
   height: 5rem;
@@ -88,10 +82,8 @@
   border: 1.5px solid #6852ba;
 }
 
-.tech-icon-top img {
-  width: 3rem;
-  height: auto;
-  transition: all 0.3s ease;
+.tech-icon-mobile {
+  display: none;
 }
 
 .tech-icon img {
@@ -101,18 +93,22 @@
 }
 
 .hero-img > div > img:hover,
-.tech-icon-top img:hover {
+.tech-icon img:hover {
   transform: translateY(-0.5rem);
 }
 
-.hero-img > div > img:hover,
-.tech-icon img:hover {
-  transform: translateY(-0.5rem);
+.other-hide {
+  display: none;
 }
 
 @media (max-width: 1025px) {
   .hero-content h1 {
     font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2.2rem;
     line-height: 4rem;
   }
 
@@ -147,7 +143,7 @@
     margin-top: 3rem;
   }
 
-  .hero-content h1,
+  .hero-content h1, h2,
   .hero-content p {
     width: auto;
     text-align: center;
@@ -176,6 +172,10 @@
     line-height: 3rem;
   }
 
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+
   .hero-content p {
     font-size: 0.8rem;
     line-height: 1.3rem;
@@ -201,12 +201,29 @@
   .tech-icon img {
     width: 2rem;
   }
+
+  .tech-icon-mobile {
+    display: block;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .other-hide {
+    display: flex;
+  }
 }
 
 @media (max-width: 400px) {
   .hero-content h1 {
     font-size: 2rem;
     line-height: 2.7rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.4rem;
+    line-height: 4rem;
   }
 
   .hero-content p {

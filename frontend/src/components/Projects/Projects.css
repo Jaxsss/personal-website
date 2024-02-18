@@ -9,13 +9,11 @@
   margin-bottom: 3rem;
 }
 
-.experience-content {}
-
 .arrow-left,
 .arrow-right {
+  display: none;
   width: 2.2rem;
   height: 2.2rem;
-  display: flex;
   align-items: center;
   justify-content: center;
   color: #6751b9;
@@ -50,6 +48,11 @@
   .experience-container h5 {
     font-size: 1.3rem;
     margin-bottom: 2rem;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    display: flex;
   }
 
   .arrow-left {
