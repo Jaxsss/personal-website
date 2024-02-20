@@ -12,15 +12,15 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
-        <Hero />
-        <Skills />
-        <WorkExperience />
-        <Projects />
-        <ContactMe />
-      </div>
+        <div className="container">
+            <Hero/>
+            <Skills/>
+            <WorkExperience/>
+            <Projects/>
+            <ContactMe/>
+        </div>
 
-      <Footer />
+        <Footer/>
     </>
   );
 };

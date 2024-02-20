@@ -20,30 +20,30 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
           <ul>
             <li>
               <a onClick={() => handleScroll("hero")} className="menu-item">
-                Home
+                Úvod
               </a>
             </li>
 
             <li>
               <a onClick={() => handleScroll("skills")} className="menu-item">
-                Skills
+                Znalosti
               </a>
             </li>
 
             <li>
               <a onClick={() => handleScroll("work-exp")} className="menu-item">
-                Work Experience
+                Pracovní zkušenosti
               </a>
             </li>
 
             <li>
               <a onClick={() => handleScroll("contact")} className="menu-item">
-                Contact Me
+                Kontakt
               </a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              CV
             </button>
           </ul>
         </div>

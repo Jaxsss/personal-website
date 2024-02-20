@@ -34,14 +34,14 @@ const Projects = () => {
   };
 
   return (
-      <section id='work-exp' className="experience-container">
+      <section id='projects' className="projects-container">
         <h5>Projekty</h5>
-        <div className="experience-content">
-          <div className="arrow-right" onClick={slideRight}>
+        <div className="project-content">
+          <div className="arrow-right-project" onClick={slideRight}>
             <span class="material-symbols-outlined">chevron_right</span>
           </div>
 
-          <div className="arrow-left" onClick={slideLeft}>
+          <div className="arrow-left-project" onClick={slideLeft}>
             <span class="material-symbols-outlined">chevron_left</span>
           </div>
 
