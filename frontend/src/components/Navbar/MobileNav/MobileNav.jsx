@@ -15,7 +15,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <img className="logo" src="./assets/images/logo.svg" alt="" />
+          <img className="logo" src="./assets/images/podpis.svg" alt="" />
 
           <ul>
             <li>
@@ -42,9 +42,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
-              CV
-            </button>
+            {/*<button className="contact-btn" onClick={() => {}}>*/}
+            {/*  CV*/}
+            {/*</button>*/}
           </ul>
         </div>
       </div>

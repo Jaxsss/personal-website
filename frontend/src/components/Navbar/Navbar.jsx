@@ -16,7 +16,7 @@ function NavBar() {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src="./assets/images/logo.svg" alt="" />
+          <img className="logo" src="./assets/images/podpis.svg" alt="" />
 
           <ul>
             <li>
@@ -35,9 +35,9 @@ function NavBar() {
               <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Kontakt</Link>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
-              CV
-            </button>
+            {/*<button className="contact-btn" onClick={() => {}}>*/}
+            {/*  CV*/}
+            {/*</button>*/}
           </ul>
 
           <button class="menu-btn" onClick={toggleMenu}>
