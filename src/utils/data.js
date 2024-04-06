@@ -107,5 +107,18 @@ export const PROJECTS = [
       "Jediným problémem při tvorbě byl formát souřadnic, bylo třeba jej unifikovat.",
       "Výsledkem byla vygenerovaná satelitní mapa se všemi souřadnicemi.",
     ],
-  }
+  },
+  {
+  title: "YouTube MP3 Downloader",
+  img1: "./assets/images/youtube-downloader-showcase.png",
+  technology: "Python, Tkinter",
+  link: "https://github.com/Jaxsss/youtube_downloader",
+  description: "osobní projekt",
+  responsibilities: [
+    "Ve volném čase jsem se věnoval DJingu a potřeboval jsem jednoduchý nástroj na stahování MP3 z YouTube.",
+    "Často jsem se potýkal se špatnou kvalitou online nástrojů pro stahování YouTube videí.",
+    "Proto jsem si vytvořil vlastní youtube downloader, s funkcemi jako je stahování videí ve vyšší kvalitě nebo stahování pouze audia.",
+    "Díky tomuto projektu jsem si urychlil svou práci.",
+  ],
+}
 ];

@@ -10,7 +10,7 @@
 }
 
 .arrow-left-project, .arrow-right-project {
-  display: none;
+  display: flex;
   width: 2.2rem;
   height: 2.2rem;
   align-items: center;

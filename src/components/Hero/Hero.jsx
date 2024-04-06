@@ -15,23 +15,23 @@ const Hero = () => {
       <div className="hero-img">
         <div>
           <div className="mobile-hide tech-icon">
-            <img src="./assets/images/img01.png" alt=""/>
+            <img src="./assets/images/python_icon.png" alt=""/>
           </div>
           <img src="./assets/images/hero-image-portrait.png" alt=""/>
         </div>
 
         <div>
           <div className="other-hide tech-icon">
-            <img src="./assets/images/img01.png" alt=""/>
+            <img src="./assets/images/python_icon.png" alt=""/>
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/img02.png" alt=""/>
+            <img src="./assets/images/snowflake_icon.png" alt=""/>
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/img03.png" alt=""/>
+            <img src="./assets/images/aws_icon.png" alt=""/>
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/img04.png" alt=""/>
+            <img src="./assets/images/dbt_icon.png" alt=""/>
           </div>
         </div>
       </div>
