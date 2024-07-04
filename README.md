@@ -1,5 +1,5 @@
 # Personal website
-This repo stores my personal website - www.zakmarek.vercel.app
+This repo stores my personal website - [www.zakmarek.vercel.app](https://zakmarek.vercel.app/)
 
 ## Technologies used
 - React
